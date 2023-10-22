@@ -6,28 +6,28 @@
 [![Telegram](https://img.shields.io/badge/Telegram-Channel-blue.svg)](https://t.me/osintgram)
 [![Docker](https://img.shields.io/badge/Docker-Supported-blue)](https://img.shields.io/badge/Docker-Supported-blue)
 
-Osintgram is a **OSINT** tool on Instagram to collect, analyze, and run reconnaissance.
+Osintgram bir **OSINT** veri toplama ve analiz etme tool'udur.
 
 <p align="center">
 <img align="center" src=".img/carbon.png" width="900">
 </p>
 
-Disclaimer: **FOR EDUCATIONAL PURPOSE ONLY! The contributors do not assume any responsibility for the use of this tool.**
+Açıklama: **SADECE EĞİTİM AMAÇLI!** Katkıda bulunanlar, bu aracın kullanımından herhangi bir sorumluluk üstlenmezler.
 
-Warning: It is advisable to **not** use your own/primary account when using this tool.
+Uyarı: Bu aracı kullanırken kendi asıl hesabınızı **kullanmamak** tavsiye edilir.
 
-## Tools and Commands 🧰
+## Komutlar 🧰
 
-Osintgram offers an interactive shell to perform analysis on Instagram account of any users by its nickname. You can get:
+Osintgram, herhangi bir kullanıcının takma adına göre Instagram hesabı üzerinde analiz yapmak için etkileşimli bir kabuk sunar. Aşağıdakileri alabilirsiniz:
 
 ```text
-- addrs           Get all registered addressed by target photos
-- captions        Get user's photos captions
-- comments        Get total comments of target's posts
-- followers       Get target followers
-- followings      Get users followed by target
-- fwersemail      Get email of target followers
-- fwingsemail     Get email of users followed by target
+- addrs           Hedef fotoğrafları tarafından kayıtlı tüm adresleri alın.
+- captions        Kullanıcının fotoğraf başlıklarını alın.
+- comments        Hedefin gönderilerinin toplam yorumunu alın.
+- followers       Hedefin takipçilerini alın.
+- followings      Hedef tarafından takip edilen kullanıcıları alın.
+- fwersemail      Hedefin takipçilerinin e-postalarını alın.
+- fwingsemail     Hedef tarafından takip edilen kullanıcıların e-postalarını alın.
 - fwersnumber     Get phone number of target followers
 - fwingsnumber    Get phone number of users followed by target
 - hashtags        Get hashtags used by target
